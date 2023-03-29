@@ -2,7 +2,8 @@
 
 If you didn't contact EthioTele to give you your appId, appKey, publicKey yet ... Go get that and come back here!
 
-I collected codes from diffrent repositories on github on telebirr Integration and these is my php/laravel integration for telebirr.
+I Researched codes from different repositories on GitHub on telebirr Integration and these is my php/laravel integration for telebirr.
+
 The following enviroment variables need to be set before start using these laravel application:
 
 - TELEBIRR_APP_ID
