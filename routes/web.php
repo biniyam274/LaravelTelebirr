@@ -14,11 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Route::resource('telebirr', TelebirrController::class);
-Route::post('telebirr/getjson', [TelebirrController::class, 'getJson']);
-Route::post('telebirr/requestTele', [TelebirrController::class, 'requestTele']);
+
+Route::resource('', TelebirrController::class);
+Route::post('getjson', [TelebirrController::class, 'getJson']);
+Route::post('requestTele', [TelebirrController::class, 'requestTele']);
 
